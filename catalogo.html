@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Curvatura</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="carrito" href="carrito.html">
+    <link rel="contacto" href="contacto.html">
+    <link rel="catalogo" href="catalogo.html">
+    <link rel="nosotros" href="nosotros.html">
+</head>
+<header>
+  <div class="header-content">
+    <div class="logo">
+        <a href="index.html" class="logo-link">
+            <img src="Logotipo/Copia de Logotipo.png" alt="Logo de la empresa">
+            <p class="nombre-empresa">Taller Curvatura</p>
+        </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="submenu-catalogo">
+          <a href="catalogo.html">Catálogo</a>
+          <ul class="submenu">
+            <li><a href="teclados.html">Teclados</a></li>
+            <li><a href="fuentes.html">Fuentes de poder</a></li>
+            <li><a href="chasis.html">Chasis</a></li>
+            <li class="has-submenu"><a href="catalogo.html?category=boards">Tarjetas Madre</a>
+              <ul class="submenu-level-2">
+                <li><a href="catalogo.html?category=boards&brand=intel">Intel</a></li>
+                <li><a href="catalogo.html?category=boards&brand=amd">AMD</a></li>
+              </ul>
+            </li>
+            <li><a href="portatiles.html">Portátiles</a></li>
+            <li><a href="mouses.html">Mouses</a></li>
+            <li class="has-submenu"><a href="graficas.html">Tarjetas gráficas</a>
+              <ul class="submenu-level-2">
+                <li><a href="graficas.html#nvidia">NVIDIA</a></li>
+                <li><a href="graficas.html#amd">AMD</a></li>
+                <li><a href="graficas.html#intel">Intel</a></li>
+              </ul>
+            </li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="ram.html">Memorias RAM</a></li>
+            <li><a href="pantallas.html">Monitores</a></li>
+            <li class="has-submenu"><a href="catalogo.html?category=processors">Procesadores</a>
+              <ul class="submenu-level-2">
+                <li><a href="catalogo.html?category=processors&brand=intel">Intel</a></li>
+                <li><a href="catalogo.html?category=processors&brand=amd">AMD</a></li>
+              </ul>
+            </li>
+            <li><a href="almacenamiento.html">Almacenamiento</a></li>
+            <li><a href="accesorios.html">Accesorios</a></li>
+            <li><a href="tablets.html">Tablets</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="mandos.html">Mandos</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="nosotros.html">Quiénes somos</a></li>
+        <li class="carrito">
+          <a href="carrito.html">
+            <img src="Imagenes/carrito-de-compras.png" alt="Carrito">
+            <span class="cantidad-carrito">0</span> |
+            <span class="costo-carrito">$0.00</span>
+          </a>
+        </li>      
+      </ul>
+  </div>
+</header>
+<body>
+    <main>
+        <h1 class="main-title">Nuestro Catálogo</h1>
+        <section class="catalog-section">
+            <div id="product-grid" class="product-grid">
+                <!-- Los productos se insertarán aquí con JavaScript -->
+            </div>
+        </section>
+    </main>
+<script src="script.js" defer></script>
+</body>
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>Mapa del Sitio</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="nosotros.html">Quiénes Somos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Información</h4>
+      <ul>
+        <li><a href="terminos.html">Términos y Condiciones</a></li>
+        <li><a href="privacidad.html">Política de Privacidad</a></li>
+        <li><a href="envios.html">Políticas de Envío</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Síguenos</h4>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook" title="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.644-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.058-1.689-.072-4.948-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg>
+        </a>
+        <a href="https://wa.me/TUNUMERODEWHATSAPP" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99 0-3.903-.52-5.586-1.456l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01s-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="payment-methods">
+      <img class="payment-icon" src="https://1000marcas.net/wp-content/uploads/2019/12/VISA-Logo-768x432.jpg" alt="Visa">
+      <img class="payment-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/500px-Mastercard-logo.svg.png" alt="Mastercard">
+      <img class="payment-icon" src="https://images.seeklogo.com/logo-png/43/1/pse-logo-png_seeklogo-433463.png" alt="PSE">
+      <img class="payment-icon" src="https://images.seeklogo.com/logo-png/42/1/bancolombia-logo-png_seeklogo-428092.png" alt="Bancolombia">
+      <img class="payment-icon" src="https://images.seeklogo.com/logo-png/40/1/nequi-logo-png_seeklogo-404357.png" alt="Nequi">
+      <img class="payment-icon" src="https://images.seeklogo.com/logo-png/25/1/efecty-colombia-logo-png_seeklogo-257636.png" alt="Efecty">
+    </div>
+    <p>&copy; 2024 Taller Curvatura. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</html>
